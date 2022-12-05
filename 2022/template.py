@@ -3,7 +3,9 @@ import numpy as np
 import string
 import os
 
-inputfile = os.getcwd() + "\\2022\Day - 05\input.txt"
+file_year = "22"
+file_date = "06"
+inputfile = os.getcwd() + "\\20" + file_year + "\Day - " + file_date + "\input.txt"
 lines = []
 print(inputfile)
 
